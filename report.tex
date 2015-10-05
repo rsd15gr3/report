@@ -1,0 +1,47 @@
+\documentclass{book}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{csquotes}
+\usepackage[backend=biber,style=numeric]{biblatex}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+\usepackage{tocbibind}
+\usepackage{authblk}
+\usepackage{graphicx}
+\usepackage{booktabs}
+
+\addbibresource{references.bib}
+
+\title{Automated Lego packaging}
+\author{Martin Bulín}
+\author{Anders Jensen}
+\author{Carlos Moro García}
+\author{Morten Tveden Gundesen}
+\author{Morten Robinson}
+\author{Kim Lindberg Schwaner}
+\author{Ignacio Torroba}
+\author{Stig Turner}
+\affil{Faculty of Engineering\\University of Southern Denmark}
+
+\begin{document}
+\frontmatter
+\maketitle
+\tableofcontents
+\listoftables
+\listoffigures
+
+\chapter{Preface}
+Hello
+
+\mainmatter
+\chapter{First chapter}
+Hello
+
+
+\appendix
+\chapter{First Appendix}
+
+
+\backmatter
+\printbibliography[heading=bibintoc]
+\end{document}
